@@ -197,27 +197,27 @@
 
                         <div class="col-sm-12 col-md-7">
 
-                            <form action="https://formspree.io/f/xknpdyvr" method="post">
+                            <form method="post" autocomplete="off" name="google-sheet">
 														
                                 <div class="form-group">
-                                    <input type="text" name="lgxname" class="form-control lgxname" id="lgxname" placeholder="Enter Your Name" required>
+                                    <input type="text" name="name" class="form-control name" id="name" placeholder="Enter Your Name" required>
 
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="email" name="lgxemail" class="form-control lgxemail" id="lgxemail" placeholder="Enter email" required>
+                                    <input type="email" name="email" class="form-control email" id="email" placeholder="Enter email" required>
                                 </div>
 								
 								<div class="form-group">
-                                    <input type="contact" name="lgxcontact" class="form-control lgxcontact" id="lgxcontact" placeholder="Contact Number" required>
+                                    <input type="contact" name="contact" class="form-control contact" id="contact" placeholder="Contact Number" required>
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" name="lgxsubject" class="form-control lgxsubject" id="lgxsubject" placeholder="Subject" required>
+                                    <input type="text" name="subject" class="form-control subject" id="subject" placeholder="Subject" required>
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea class="form-control lgxmessage" name="lgxmessage" id="lgxmessage" rows="5" placeholder="We expect drop some line from you..." required></textarea>
+                                    <textarea class="form-control message" name="message" id="message" rows="5" placeholder="We expect drop some line from you..." required></textarea>
                                 </div>
 								<div class="text">
 								<label class="text">Xebia Group needs the contact information you provide to us to contact you about your request or question. For information on our privacy practices and commitment to protecting your privacy, check out our Privacy Policy.</label>
@@ -225,6 +225,20 @@
 
                                 <button type="submit" name="submit" value="contact-form" class="lgx-btn hvr-glow hvr-radial-out lgxsend lgx-send" style="margin-bottom: 40px;"><span>Send Massage</span></button>
                             </form>
+
+                            <script>
+                                const scriptURL = 'https://script.google.com/macros/s/AKfycbwO3DUyLP3hui00Kjw6bpcE0EeF5-NQdJ5xHYuLAB_JA0yhCRjVIeBXLndiNfDI4QkHjw/exec'
+                                const form = document.forms['google-sheet']
+        
+                                form.addEventListener('submit', e => {
+                                    e.preventDefault()
+                                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                                        .then(response => alert("Thanks for Contacting us.! We Will Contact You Soon..."))
+                                        .catch(error => console.error('Error!', error.message))
+                                })
+                            </script>
+                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
                             <!-- MODAL SECTION -->
                             <div id="lgx-form-modal" class="modal fade lgx-form-modal" tabindex="-1" role="dialog" aria-hidden="true">
