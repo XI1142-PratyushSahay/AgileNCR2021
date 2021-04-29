@@ -152,7 +152,7 @@
 								
                             </li>
                             
-                            <li class="active"><a class="lgx-scroll" href="contact.html">Contact</a></li>
+                            <li><a class="lgx-scroll" href="contact.html">Contact</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </nav>
@@ -173,11 +173,11 @@
                         <div class="col-xs-12">
                             <div class="lgx-heading-area">
                                 <div class="lgx-heading lgx-heading-white">
-                                    <h2 class="heading">Get In Touch</h2>
+                                    <h2 class="heading">Registration</h2>
                                 </div>
                                 <ul class="breadcrumb">
                                     <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-                                    <li class="active">Contact</li>
+                                    <li class="active">Registration</li>
                                 </ul>
                             </div>
                         </div>
@@ -213,30 +213,41 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" name="subject" class="form-control subject" id="subject" placeholder="Subject" required>
+                                    <input type="text" name="organization" class="form-control organization" id="organization" placeholder="Organization" required>
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea class="form-control message" name="message" id="message" rows="5" placeholder="We expect drop some line from you..." required></textarea>
+                                    <input type="text" name="designation" class="form-control designation" id="designation" placeholder="Designation" required>
                                 </div>
-								<div class="text">
-								<label class="text">Xebia Group needs the contact information you provide to us to contact you about your request or question. For information on our privacy practices and commitment to protecting your privacy, check out our Privacy Policy.</label>
-								</div>
 
-                                <button type="submit" name="submit" value="contact-form" class="lgx-btn hvr-glow hvr-radial-out lgxsend lgx-send" style="margin-bottom: 40px;"><span>Send Massage</span></button>
+                                <div class="form-group">
+                                    <input type="text" name="location" class="form-control location" id="location" placeholder="Location" required>
+                                </div>
+
+                                
+                                <div class="form-group">
+                                    <input type="text" name="coupon" class="form-control coupon" id="coupon" placeholder="Coupon Code" required>
+                                </div>
+
+
+                                
+
+                                <button type="submit" id="submit" name="submit" value="contact-form" class="lgx-btn hvr-glow hvr-radial-out lgxsend lgx-send" style="margin-bottom: 40px;"><span>Book Now</span></button>
                             </form>
 
                             <script>
-                                const scriptURL = 'https://script.google.com/macros/s/AKfycbwO3DUyLP3hui00Kjw6bpcE0EeF5-NQdJ5xHYuLAB_JA0yhCRjVIeBXLndiNfDI4QkHjw/exec'
+                                const scriptURL = 'https://script.google.com/macros/s/AKfycbyGtBJJ-b3NYeCWHnnaB5fvL1VcSdhLZ0PO2adTZxqCLCUxcEF8PnOMk9ev8lBc_L6p/exec'
                                 const form = document.forms['google-sheet']
         
                                 form.addEventListener('submit', e => {
                                     e.preventDefault()
                                     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                                        .then(response => alert("Thanks for Contacting us.! We Will Contact You Soon..."))
+                                        .then(response => alert("Your Registration is Complete !"))
                                         .catch(error => console.error('Error!', error.message))
                                 })
+
                             </script>
+
                             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
                             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -404,5 +415,19 @@
 <script src="assets/js/custom.script.js"></script>
 
 <div class="lgx-switcher-loader"></div>
+<script>
+    var redeemButton = document.getElementById('submit');
+    var inputField = document.getElementById('coupon');
+
+    redeemButton.setAttribute('disabled', true);
+    inputField.onkeyup = (ele) => {
+    console.log(inputField.value);
+    if (inputField.value === "AGNCR2021") {
+    redeemButton.removeAttribute('disabled');
+    } else {
+    redeemButton.setAttribute('disabled', true);
+    }
+    }
+</script>
 </body>
 </html>
