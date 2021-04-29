@@ -475,6 +475,11 @@ button:hover:after {
   border-radius: 100%;
 }
 
+.lgx-btn:disabled,
+button:disabled {
+  background: #554bb961;
+}
+
 .lgx-btn-sm {
   padding: 0.8rem 2.6rem;
   font-size: 12px;
