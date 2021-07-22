@@ -547,7 +547,7 @@
                                             form.addEventListener('submit', e => {
                                                 e.preventDefault()
                                                 fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                                                    .then(response => alert("Thank you for submitting your organization’s nomination for Agile Awards 2021. We shall be touching base with you in later part of Oct 2021 to help you understand the qualification round process/approach. In case, you have any further queries on this process, please contact conferences@xebia.com. Thanking you once again."))
+                                                    .then(response => confirm("Thank you for submitting your organization’s nomination for Agile Awards 2021. We shall be touching base with you in later part of Oct 2021 to help you understand the qualification round process/approach. In case, you have any further queries on this process, please contact conferences@xebia.com. Thanking you once again."))
                                                     .catch(error => console.error('Error!', error.message))
                                             })
                                         </script>
