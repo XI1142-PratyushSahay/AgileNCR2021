@@ -544,19 +544,6 @@ button:disabled {
   top: -25px;
 }
 
-.schedule-btn-area,
-.sponsor-btn-area {
-  margin-top: 4.2rem;
-}
-
-@media (max-width: 767px) {
-  .lgx-btn {
-    font-size: 12px;
-    padding: 0.6rem 2rem;
-    letter-spacing: 0;
-  }
-}
-
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1
