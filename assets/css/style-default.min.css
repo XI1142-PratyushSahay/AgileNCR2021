@@ -7049,6 +7049,9 @@ button:disabled {
   -moz-background-size: cover;
   background-size: cover;
 }
+.lgx-banner7 .lgx-inner {
+  padding: 18rem 0 20rem;
+}
 
 .lgx-banner-music {
   background: url(../img/banner-music.jpg) top center no-repeat;
