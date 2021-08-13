@@ -7,6 +7,8 @@ a:hover {
   outline: 0;
 }
 
+
+
 html {
   font-size: 62.5%;
 }
@@ -490,6 +492,10 @@ button:disabled {
 }
 
 .lgx-btn-yellow {
+  background:#efa506;
+}
+
+.lgx-btn-yellow {
   background: #efa506;
 }
 
@@ -540,19 +546,6 @@ button:disabled {
 .mfp-wrap .mfp-arrow::after,
 .mfp-wrap .mfp-arrow::before {
   top: -25px;
-}
-
-.schedule-btn-area,
-.sponsor-btn-area {
-  margin-top: 4.2rem;
-}
-
-@media (max-width: 767px) {
-  .lgx-btn {
-    font-size: 12px;
-    padding: 0.6rem 2rem;
-    letter-spacing: 0;
-  }
 }
 
 /*!
@@ -7059,6 +7052,9 @@ button:disabled {
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+.lgx-banner7 .lgx-inner {
+  padding: 18rem 0 20rem;
 }
 
 .lgx-banner-music {
