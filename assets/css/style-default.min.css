@@ -123,6 +123,26 @@ h6 {
   line-height: 1.8rem;
 }
 
+
+.circle1 {
+  height: 250px;
+  width: 250px;
+  background: #00f6ff;
+  border-radius: 50%;
+  position: absolute;
+  right: -5%;
+  top: 65%;
+}
+
+.circle2 {
+  height: 86px;
+  width: 86px;
+  background: #ffcece;
+  border-radius: 50%;
+  position: absolute;
+  left: 5%;
+ 
+}
 blockquote,
 blockquote p {
   font-family: Oswald, sans-serif;
