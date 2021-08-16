@@ -125,12 +125,12 @@ h6 {
 
 
 .circle1 {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   background: #00f6ff;
   border-radius: 50%;
-  position: absolute;
-  right: -5%;
+  position:absolute;
+  right:1%;
   top: 65%;
 }
 
@@ -141,6 +141,7 @@ h6 {
   border-radius: 50%;
   position: absolute;
   left: 5%;
+  overflow:hidden;
  
 }
 blockquote,
@@ -7401,6 +7402,7 @@ button:disabled {
 .lgx-about-content-area .lgx-heading .subheading,
 .lgx-banner-info-homeone .title {
   font-family: Oswald, sans-serif;
+  overflow:hidden;
 }
 
 .lgx-banner-info-homeone .title {
@@ -8520,6 +8522,7 @@ button:disabled {
 
 .lgx-about {
   background: #fff;
+
 }
 
 .lgx-about2 {
