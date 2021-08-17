@@ -7,8 +7,6 @@ a:hover {
   outline: 0;
 }
 
-
-
 html {
   font-size: 62.5%;
 }
@@ -123,14 +121,13 @@ h6 {
   line-height: 1.8rem;
 }
 
-
 .circle1 {
   height: 200px;
   width: 200px;
   background: #00f6ff;
   border-radius: 50%;
-  position:absolute;
-  right:1%;
+  position: absolute;
+  right: 1%;
   top: 65%;
 }
 
@@ -141,8 +138,7 @@ h6 {
   border-radius: 50%;
   position: absolute;
   left: 5%;
-  overflow:hidden;
- 
+  overflow: hidden;
 }
 blockquote,
 blockquote p {
@@ -363,7 +359,7 @@ textarea.form-control {
 .lgx-heading .heading {
   font-family: Oswald, sans-serif;
   font-size: 3rem;
-  line-height: 6.300000000000001rem;
+  /* line-height: 6.300000000000001rem; */
   color: #1b273d;
   font-weight: 900;
   margin: 0 0 1rem;
@@ -510,10 +506,6 @@ button:disabled {
 
 .lgx-btn-red {
   background: #ec398b;
-}
-
-.lgx-btn-yellow {
-  background:#efa506;
 }
 
 .lgx-btn-yellow {
@@ -7402,7 +7394,7 @@ button:disabled {
 .lgx-about-content-area .lgx-heading .subheading,
 .lgx-banner-info-homeone .title {
   font-family: Oswald, sans-serif;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .lgx-banner-info-homeone .title {
@@ -8522,7 +8514,6 @@ button:disabled {
 
 .lgx-about {
   background: #fff;
-
 }
 
 .lgx-about2 {
@@ -13589,4 +13580,3 @@ blockquote.lgx-testi-single:before {
   font-size: 1.8rem;
   color: inherit;
 }
-
