@@ -241,13 +241,13 @@
                             </form>
 
                             <script>
-                                const scriptURL = 'https://script.google.com/macros/s/AKfycbyGtBJJ-b3NYeCWHnnaB5fvL1VcSdhLZ0PO2adTZxqCLCUxcEF8PnOMk9ev8lBc_L6p/exec'
+                                const scriptURL = 'https://script.google.com/macros/s/AKfycbxxbjrNMLuntcBFLh50YWrsLjAtm4tg5OW72DbuCJPa9Vssnm642_99H0s-agLVS599Dw/exec'
                                 const form = document.forms['google-sheet']
         
                                 form.addEventListener('submit', e => {
                                     e.preventDefault()
                                     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                                        .then(response => alert("Your Registration is Complete !"))
+                                    .then(response => window.location.replace("https://razorpay.com/payment-button/pl_HuS0qUKr978DEE/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"))
                                         .catch(error => console.error('Error!', error.message))
                                 })
 
@@ -432,7 +432,7 @@
     redeemButton.setAttribute('disabled', true);
     inputField.onkeyup = (ele) => {
     console.log(inputField.value);
-    if (inputField.value === "AGNCR2021") {
+    if (inputField.value === "AGNCR50PRT2021") {
     redeemButton.removeAttribute('disabled');
     } else {
     redeemButton.setAttribute('disabled', true);
