@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="03a57193-e07e-4c98-bba8-5a16fa1370d4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style-default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedules.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedules.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +21,17 @@
       <file leaf-file-name="schedules.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedules.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+            <state>
+              <caret line="750" column="74" selection-start-line="750" selection-start-column="74" selection-end-line="750" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-default.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style-default.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299618">
+              <caret line="13619" column="17" selection-start-line="13619" selection-start-column="17" selection-end-line="13619" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -36,6 +47,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>accordion-group-7</find>
+      <find>Track 1</find>
+      <find>heading-inner-10</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -43,6 +61,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/What's New.html" />
+        <option value="$PROJECT_DIR$/assets/css/style-default.min.css" />
+        <option value="$PROJECT_DIR$/schedules.html" />
       </list>
     </option>
   </component>
@@ -113,14 +133,22 @@
       <workItem from="1631688792581" duration="61000" />
       <workItem from="1631768644466" duration="1303000" />
       <workItem from="1631782037474" duration="10000" />
+      <workItem from="1631869469987" duration="656000" />
+      <workItem from="1631870763062" duration="1518000" />
+      <workItem from="1631872597221" duration="605000" />
+      <workItem from="1631874649809" duration="1730000" />
+      <workItem from="1631876536512" duration="1772000" />
+      <workItem from="1631878398708" duration="1822000" />
+      <workItem from="1631880247190" duration="1183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2973000" />
+    <option name="totallyTimeSpent" value="12259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -129,7 +157,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3291592" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291592" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -148,6 +176,125 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5170">
+          <caret line="235" column="18" lean-forward="true" selection-start-line="171" selection-start-column="8" selection-end-line="235" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style-default.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299618">
+          <caret line="13619" column="17" selection-start-line="13619" selection-start-column="17" selection-end-line="13619" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/What's New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5632">
+          <caret line="256" column="52" selection-start-line="256" selection-start-column="52" selection-end-line="256" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6402">
+          <caret line="291" column="78" selection-start-line="291" selection-start-column="78" selection-end-line="291" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style-default.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299354">
+          <caret line="13607" column="12" selection-start-line="13607" selection-start-column="12" selection-end-line="13607" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/What's New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5632">
+          <caret line="256" column="52" selection-start-line="256" selection-start-column="52" selection-end-line="256" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6468">
+          <caret line="294" column="44" lean-forward="true" selection-start-line="294" selection-start-column="44" selection-end-line="294" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style-default.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299244">
+          <caret line="13602" column="28" selection-start-line="13602" selection-start-column="28" selection-end-line="13602" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/What's New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5632">
+          <caret line="256" column="52" selection-start-line="256" selection-start-column="52" selection-end-line="256" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5896">
+          <caret line="268" column="97" selection-start-line="268" selection-start-column="97" selection-end-line="268" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/What's New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5632">
+          <caret line="256" column="52" selection-start-line="256" selection-start-column="52" selection-end-line="256" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5918">
+          <caret line="269" column="70" selection-start-line="269" selection-start-column="70" selection-end-line="269" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/What's New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5632">
+          <caret line="256" column="52" selection-start-line="256" selection-start-column="52" selection-end-line="256" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15224">
+          <caret line="692" column="39" selection-start-line="692" selection-start-column="39" selection-end-line="692" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/What's New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5632">
+          <caret line="256" column="52" selection-start-line="256" selection-start-column="52" selection-end-line="256" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3476">
+          <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/What's New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5632">
+          <caret line="256" column="52" selection-start-line="256" selection-start-column="52" selection-end-line="256" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/schedules.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3476">
@@ -204,10 +351,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style-default.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299618">
+          <caret line="13619" column="17" selection-start-line="13619" selection-start-column="17" selection-end-line="13619" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/schedules.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+        <state>
+          <caret line="750" column="74" selection-start-line="750" selection-start-column="74" selection-end-line="750" selection-end-column="74" />
         </state>
       </provider>
     </entry>
