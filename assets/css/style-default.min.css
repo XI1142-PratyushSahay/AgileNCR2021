@@ -13580,3 +13580,42 @@ blockquote.lgx-testi-single:before {
   font-size: 1.8rem;
   color: inherit;
 }
+.track-panel
+{
+  border: none;
+  border-radius: 5px;
+  background: #dedfe4;
+}
+.track-panel-header
+{
+  padding: 0;
+  border-bottom: 0px;
+  border-radius: 5px;
+}
+.track-panel-button
+{
+  border: 0;
+  padding: 16px;
+  color: #fff;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+  background: #ff8a00;
+  color: #ffffff !important;
+}
+.p-0
+{
+  padding: 0;
+}
+.bg-white
+{
+    background: #ffffff !important;
+}
+.panel-group>.panel
+{
+    margin-bottom: 15px !important;
+}
+.panel-group>.panel:last-child
+{
+    margin-bottom: 0 !important;
+}
